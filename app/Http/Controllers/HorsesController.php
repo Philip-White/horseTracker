@@ -65,6 +65,13 @@ class HorsesController extends Controller
             'breed' => 'required',
             'dob' => 'required',
             'weight' => 'required',
+            'healthIssues' => 'required',
+            'pastAilments' => 'required',
+            'lastWorked' => 'required',
+            'feed' => 'required',
+            'feedRecipe' => 'required',
+            'workSchedule' => 'required',
+            'notes' => 'required',
             'card_image' => 'image|nullable|max:1999'
         ]);
 
